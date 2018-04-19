@@ -1,0 +1,1 @@
+<!-- rounded_rectangle_10_1 from your PSD file. --><shape xmlns:android="http://schemas.android.com/apk/res/android"	android:shape="rectangle" >	<corners android:radius="10dp" />	<solid android:color="@color/rounded_rectangle_10_color" /></shape>

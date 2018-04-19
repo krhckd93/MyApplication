@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/background_">
+        <LinearLayout
+            android:id="@+id/hex_ull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/hex_ull1"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:contentDescription="@string/ek_img_content"
+                android:src="@drawable/hex"
+                android:layout_margin="10dp"/>
+            <ImageView
+                android:id="@+id/hex_ull2"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:contentDescription="@string/ek_img_content"
+                android:src="@drawable/hex"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/hex_6"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="145dp"
+            android:contentDescription="@string/ek_img_content"
+            android:src="@drawable/hex_6"
+            android:layout_marginEnd="-60dp"
+            android:layout_toStartOf="@+id/hex_ull" />
+
+        <ImageView
+            android:id="@+id/hex_7"
+            android:layout_width="171dp"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/ek_img_content"
+            android:src="@drawable/hex_6"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_toStartOf="@id/hex_6"/>
+
+        <ImageView
+            android:id="@+id/hex_8"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:contentDescription="@string/ek_img_content"
+            android:src="@drawable/hex_6"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/hex_3"/>
+        <ImageView
+            android:id="@+id/hex_3"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:contentDescription="@string/ek_img_content"
+            android:src="@drawable/hex_3"
+            android:layout_toEndOf="@+id/hex_ull"
+            android:layout_marginTop="145dp"
+            android:layout_marginStart="-60dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/hex_bll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:weightSum="2">
+            <ImageView
+                android:id="@+id/hex_bll1"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:contentDescription="@string/ek_img_content"
+                android:src="@drawable/hex"
+                android:layout_margin="10dp"/>
+            <ImageView
+                android:id="@+id/hex_bll2"
+                android:layout_width="160dp"
+                android:layout_height="180dp"
+                android:contentDescription="@string/ek_img_content"
+                android:src="@drawable/hex"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/polygon_1"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:src="@drawable/polygon_1"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_toStartOf="@id/hex_bll"
+            android:layout_marginBottom="120dp"
+            android:layout_alignParentBottom="true"/>
+
+        <ImageView
+            android:id="@+id/polygon_"
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            android:contentDescription="@string/ek_img_content"
+            android:src="@drawable/polygon_"
+            android:layout_marginBottom="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/hex_bll"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

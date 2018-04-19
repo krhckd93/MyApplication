@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout android:id="@+id/content"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView android:id="@+id/polygon_1"
+            android:src="@drawable/polygon_1"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="215dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy"
+            android:src="@drawable/polygon_1_copy"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="33dp"
+            android:layout_width="180dp"
+            android:layout_height="207dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_2"
+            android:src="@drawable/polygon_1_copy_2"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="218dp"
+            android:layout_width="179dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_3"
+            android:src="@drawable/polygon_1_copy_3"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="395dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_5"
+            android:src="@drawable/polygon_1_copy_5"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="395dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_6"
+            android:src="@drawable/polygon_1_copy_6"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="529dp"
+            android:layout_marginTop="395dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_7"
+            android:src="@drawable/polygon_1_copy_7"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="739dp"
+            android:layout_marginTop="362dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_8"
+            android:src="@drawable/polygon_1_copy_8"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="843dp"
+            android:layout_marginTop="185dp"
+            android:layout_width="179dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_9"
+            android:src="@drawable/polygon_1_copy_9"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="630dp"
+            android:layout_marginTop="183dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_10"
+            android:src="@drawable/polygon_1_copy_10"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="736dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="180dp"
+            android:layout_height="207dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_11"
+            android:src="@drawable/polygon_1_copy_11"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="424dp"
+            android:layout_marginTop="211dp"
+            android:layout_width="180dp"
+            android:layout_height="207dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_12"
+            android:src="@drawable/polygon_1_copy_12"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="514dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <ImageView android:id="@+id/polygon_1_copy_13"
+            android:src="@drawable/polygon_1_copy_13"
+            android:contentDescription="@string/ek_img_content"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="29dp"
+            android:layout_width="180dp"
+            android:layout_height="208dp" />
+
+        <TextView android:id="@+id/regional_nutrition__coordinating"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="757dp"
+            android:layout_marginTop="94dp"
+            android:layout_width="145dp"
+            android:layout_height="45dp"
+            android:text="@string/regional_nutrition__coordinating_string"
+            />
+
+        <TextView android:id="@+id/national_nutrition_cordinating"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="312dp"
+            android:layout_width="144dp"
+            android:layout_height="45dp"
+            android:text="@string/national_nutrition_cordinating_string"
+            />
+
+        <TextView android:id="@+id/nutrition_technical__committees"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="758dp"
+            android:layout_marginTop="452dp"
+            android:layout_width="151dp"
+            android:layout_height="41dp"
+            android:text="@string/nutrition_technical__committees_string"
+            />
+
+        <TextView android:id="@+id/establish_and__strengthen_zona_woreda_level__nutrition"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="346dp"
+            android:layout_marginTop="463dp"
+            android:layout_width="130dp"
+            android:layout_height="81dp"
+            android:text="@string/establish_and__strengthen_zona_woreda_level__nutrition_string"
+            />
+
+        <TextView android:id="@+id/multisectoral__nutrition__implementation"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="453dp"
+            android:layout_marginTop="291dp"
+            android:layout_width="128dp"
+            android:layout_height="65dp"
+            android:text="@string/multisectoral__nutrition__implementation_string"
+            />
+
+        <TextView android:id="@+id/kpi___s"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="470dp"
+            android:layout_marginTop="625dp"
+            android:layout_width="73dp"
+            android:layout_height="35dp"
+            android:text="@string/kpi___s_string"
+            />
+
+        <TextView android:id="@+id/tv_1"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c1_color"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="381dp"
+            android:layout_width="23dp"
+            android:layout_height="34dp"
+            android:text="@string/s1_string"
+            />
+
+        <TextView android:id="@+id/tv_2"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c1_color"
+            android:layout_marginStart="814dp"
+            android:layout_marginTop="157dp"
+            android:layout_width="28dp"
+            android:layout_height="34dp"
+            android:text="@string/s2_string"
+            />
+
+        <TextView android:id="@+id/tv_3"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c1_color"
+            android:layout_marginStart="388dp"
+            android:layout_marginTop="176dp"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:text="@string/s3_string"
+            />
+
+        <TextView android:id="@+id/tv_4"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c4_color"
+            android:layout_marginStart="395dp"
+            android:layout_marginTop="559dp"
+            android:layout_width="29dp"
+            android:layout_height="34dp"
+            android:text="@string/s4_string"
+            />
+
+        <TextView android:id="@+id/tv_6"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c6_color"
+            android:layout_marginStart="813dp"
+            android:layout_marginTop="516dp"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:text="@string/s6_string"
+            />
+
+        <TextView android:id="@+id/tv_8"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c6_color"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="549dp"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:text="@string/s8_string"
+            />
+
+        <TextView android:id="@+id/tv_9"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c6_color"
+            android:layout_marginStart="605dp"
+            android:layout_marginTop="551dp"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:text="@string/s9_string"
+            />
+
+        <TextView android:id="@+id/tv_10"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c10_color"
+            android:layout_marginStart="908dp"
+            android:layout_marginTop="343dp"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:text="@string/s10_string"
+            />
+
+        <TextView android:id="@+id/tv_5"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c5_color"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="368dp"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:text="@string/s5_string"
+            />
+
+        <TextView android:id="@+id/tv_7"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="@color/c5_color"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="362dp"
+            android:layout_width="29dp"
+            android:layout_height="34dp"
+            android:text="@string/s7_string"
+            />
+
+        <TextView android:id="@+id/appropriate__structure__for_nutrition"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="885dp"
+            android:layout_marginTop="258dp"
+            android:layout_width="103dp"
+            android:layout_height="61dp"
+            android:text="@string/appropriate__structure__for_nutrition_string"
+            />
+
+        <TextView android:id="@+id/nntc___rntc"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="379dp"
+            android:layout_marginTop="95dp"
+            android:layout_width="50dp"
+            android:layout_height="61dp"
+            android:text="@string/nntc___rntc_string"
+            />
+
+        <TextView android:id="@+id/pre_service_nutrition__training_for_health_water_engineering"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="227dp"
+            android:layout_marginTop="289dp"
+            android:layout_width="163dp"
+            android:layout_height="65dp"
+            android:text="@string/pre_service_nutrition__training_for_health_water_engineering_string"
+            />
+
+        <TextView android:id="@+id/nutrition_training__for_staff_of_nnp"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="487dp"
+            android:layout_width="143dp"
+            android:layout_height="41dp"
+            android:text="@string/nutrition_training__for_staff_of_nnp_string"
+            />
+
+        <TextView android:id="@+id/involvement_of__women_s_entities"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/regional_nutrition__coordinating_color"
+            android:layout_marginStart="553dp"
+            android:layout_marginTop="478dp"
+            android:layout_width="136dp"
+            android:layout_height="41dp"
+            android:text="@string/involvement_of__women_s_entities_string"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

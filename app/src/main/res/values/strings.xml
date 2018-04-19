@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">National Nutrition Program</string>
+    <string name="ek_img_content">PSD Image</string>
+    <string name="training_1_string">Training</string>
+    <string name="sectors_1_string">Sectors</string>
+    <string name="notifications_1_string">Notifications</string>
+    <string name="beam_content_string">Beam Content</string>
+    <string name="_____string">\n</string>
+    <string name="profile__string">Profile\n</string>
+    <string name="regional_nutrition__coordinating_string">Regional Nutrition</string>
+    <string name="national_nutrition_cordinating_string">National Nutrition\nCordinating</string>
+    <string name="nutrition_technical__committees_string">Nutrition Technical \nCommittees</string>
+    <string name="establish_and__strengthen_zona_woreda_level__nutrition_string">Establish and \nstrengthen zona\nworeda level \nNutrition</string>
+    <string name="multisectoral__nutrition__implementation_string">Multisectoral \nNutrition \nImplementation</string>
+    <string name="kpi___s_string">KPIS</string>
+    <string name="s1_string">1</string>
+    <string name="s2_string">2</string>
+    <string name="s3_string">3</string>
+    <string name="s4_string">4</string>
+    <string name="s6_string">6</string>
+    <string name="s8_string">8</string>
+    <string name="s9_string">9</string>
+    <string name="s10_string">10</string>
+    <string name="s5_string">5</string>
+    <string name="s7_string">7</string>
+    <string name="appropriate__structure__for_nutrition_string">Appropriate\n Structure\n for Nutrition</string>
+    <string name="nntc___rntc_string">NNTC &amp;\nRNTC</string>
+    <string name="pre_service_nutrition__training_for_health_water_engineering_string">Pre-service Nutrition\n training for health\nwater engineering</string>
+    <string name="nutrition_training__for_staff_of_nnp_string">Nutrition Training\n for staff of NNP</string>
+    <string name="involvement_of__women_s_entities_string">Involvement of\n womens entities</string>
+
+    <!--NOTIFICATIONS-->
+    <!--<string name="ek_img_content">PSD Image</string>-->
+    <string name="s1_min_ago_string">1 Min Ago</string><string name="s1_min_ago_1_string">1 Min Ago</string>
+    <string name="s1_min_ago_2_string">1 Min Ago</string>
+    <string name="notifications_2_string">Notifications</string>
+    <string name="satellite_string">Satellite</string>
+
+    <!--TRAINING-->
+
+    <string name="proposed_interventions_string">Proposed Interventions</string>
+    <string name="training_string">TRAINING</string>
+    <string name="school_health_and__nutrition_services___string">School Health and \nNutrition Services. </string>
+    <string name="access_to_nutrition__assessment_string">Access to Nutrition \nAssessment</string>
+    <string name="acute_malnutrition_and__common_childhood_illnesses_string">Acute Malnutrition and \nCommon Childhood Illnesses</string>
+    <string name="nutrition__cbn__approaches__string">Nutrition (CBN) Approaches.</string>
+    <string name="food_fortification_practices___string">Food fortification practices. </string>
+    <string name="feeding_programmes___string">Feeding Programmes. </string>
+
+    <!--BEAM CONTENT-->
+    <string name="username_1_string">Username</string>
+    <string name="not_you___string">not you ?</string>
+    <string name="forgot_password___string">forgot password ?</string>
+    <string name="password_1_string">Password</string>
+    <string name="login_1_string">LOGIN</string>
+    <string name="login_2_string">Login</string>
+    <string name="beam_content_1_string">Beam Content</string>
+
+    <!--PROFILE-->
+    <string name="jodi_string">JODI</string>
+    <string name="edit_string">Edit</string>
+    <string name="number_sessions_string">Number of \nsessions</string>
+    <string name="sessions_string">205</string>
+    <string name="performance_1_string">Performance</string>
+    <string name="digit_string">4</string>
+    <string name="achievements_1_string">Achievements</string>
+    <string name="achievement_string">5</string>
+    <string name="program_1_string">Program</string>
+    <string name="knowledge_transfer_string">Knowledge\nTransfer</string>
+    <string name="sector_string">Sector</string>
+    <string name="health_1_string">Health</string>
+    <string name="phase_string">Phase</string>
+    <string name="digit_1_string">2</string>
+    <string name="pathways_string">Pathways</string>
+    <string name="nutrition__string">Nutrition Specific\n Interventions</string>
+
+    <!--PROFILE KNOWLEDGE-->
+    <string name="programme_string">Programme</string>
+    <string name="content_string">The most successful nutrition programmes in Africa and elsewhere has been community-based in the sense that they mobilize the community resources in pursuit of a common goal, namely to rid their community of the scourge of child hunger and malnutrition. A community- based approach also serves to bring the various key sectors together within the community context where the role of health workers, community  </string>
+    <string name="phase__1_string">PHASE </string>
+    <string name="implementation_and_evaluation_of_selected_innovated_interventio_string">Implementation and Evaluation of selected Innovated interventions.\n</string>
+    <string name="years_string">2-3 years</string>
+    <string name="lorem__string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+
+    <string name="performance_string">Performance</string>
+
+    <string name="completed_1_string">Completed</string>
+    <string name="streak_1_string">Streak</string>
+
+    <string name="achievements_string">Achievements</string>
+
+    <string name="mission_1_string">MISSION</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesettin_string">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="sectors_string">Sectors</string>
+    <string name="sectors_2_string">Sectors</string>
+
+    <string name="the_string">The most successful nutrition programmes in Africa and elsewhere has been community-based in the sense that they mobilize the community resources in pursuit of a common goal, namely to rid their community of the scourge of child hunger and malnutrition. </string>
+    <string name="management__string">Management of severe acute malnutrition.</string>
+    <string name="preventitive__string">Preventitive zinc supplymentation.</string>
+    <string name="icon_1_string"></string>
+    <string name="promotion__string">Promotion of Breastfeeding.</string>
+    <string name="appropriate__string">Appropriate complementry Feeding.</string>
+    <string name="management__1_string">Management of moderate acute malnutrition.</string>
+    <string name="periconceptual_string">Periconceptual folic acid supplementation or fortification.</string>
+    <string name="maternal__string">Maternal balanced energy protein supplementation.</string>
+    <string name="maternal_string">Maternal multiple micronutrient supplementation.</string>
+    <string name="vitamin__string">Vitamin A supplementation.</string>
+    <string name="meternal__string">Meternal calcium supplementation.</string>
+
+    <string name="s100_000_beams_today_string">100,000 Beams Today</string>
+    <string name="s2_438_beams_now_string">2,438 Beams now</string>
+    <string name="beam_1_string">Beam</string>
+    <string name="content_1_string">Content</string>
+    <string name="community_1_string">Community</string>
+
+
+    <string name="what___string">What do you want to BEAM</string>
+    <string name="beam_string">Beam anything you want by entering its name\nabove, or choose a beam temlate below\n</string>
+    <string name="agriculture__string">Agriculture And Food \nSecurity</string>
+    <string name="meternal___1_string">Meternal Mental Health</string>
+    <string name="classroom__1_string">Classroom Education</string>
+    <string name="social__1_string">Social Safty Nets</string>
+    <string name="woman___s__1_string">Womans empowerment</string>
+    <string name="water__1_string">Water and Sanitation</string>
+    <string name="early_1_string">Early child developement</string>
+    <string name="child__1_string">Child Protection</string>
+
+
+
+    <string name="finish_string">FINISH</string>
+    <string name="name___string">Name :</string>
+    <string name="water__string">Water Sanitation And Hygiene ( Wash ).</string>
+    <string name="environmental___string">Environmental :</string>
+    <string name="enteropathy__string">Enteropathy.</string>
+    <string name="environment___string">Environment :</string>
+    <string name="_hygiene__string"> Hygiene and Sanitary.</string>
+    <string name="drinking_water___string">Drinking Water :</string>
+    <string name="quality__string">Quality, distance and source.</string>
+    <string name="____string"></string>
+    <string name="facilitities___string">Facilitities :</string>
+    <string name="water_string">Water Sanitation And Hygiene ( Wash ).</string>
+    <string name="promotion___string">Promotion :</string>
+    <string name="hygiene__string">Hygiene behaviors and practices.</string>
+    <string name="reduction_string">Reduction and elimination of open defaecation</string>
+
+    <string name="community_post_string">Community post</string>
+    <string name="federal_1_string">FEDERAL</string>
+    <string name="regional_1_string">REGIONAL</string>
+    <string name="zonal_1_string">ZONAL</string>
+    <string name="woreda_1_string">WOREDA</string>
+    <string name="kebele_1_string">KEBELE</string>
+    <string name="jodi_string1">JODI is Beaming Water And Sanitation \nContent .</string>
+    <string name="now_string">now</string>
+    <string name="sudhir__string">SUDHIR Beamed SOCIAL SAFTY NETS  Content. </string>
+    <string name="s10_mins__ago_string">10 mins. ago</string>
+    <string name="cody__string">CODY Beamed Classrooms Content .</string>
+    <string name="s10_mins__ago_1_string">10 mins. ago</string>
+    <string name="lidia__string">LIDIA Beamed Meternal mental Health\nContent .</string>
+    <string name="s10_mins__ago_2_string">10 mins. ago</string>
+
+    <string name="national__string">National Nutrition\nCordinating</string>
+    <string name="ministry__string">Ministry of\nAgriculture And \nNatural \nResources</string>
+    <string name="ministry_of___string">Ministry of \nEducation</string>
+    <string name="multisectoral___string">Multisectoral \nNutrition \nImplementation</string>
+    <string name="appropriate_string">Appropriate\n Structure\n for Nutrition</string>
+    <string name="ministry__1_string">Ministry of Water\nIrrigation And\nElectricity\n</string>
+    <string name="federal___string">Federal \nMinistry of\nHealth</string>
+
+
+    <string name="notifications_string">Notifications</string>
+    <string name="digit_string1">1</string>
+    <string name="intervention_string">Intervention</string>
+    <string name="implement__string">Implement Community-based \nNutrition (CBN) Approaches.</string>
+
+    <string name="next_content_1_string">The most successful nutrition programmes in Africa and elsewhere has been community-based in the sense that they mobilize the community resources in pursuit of a common goal, namely to rid their community of the scourge of child hunger and malnutrition. A community- based approach also serves to bring the various key sectors together within the community context where the role of health workers, community  </string>
+    <string name="first_content_string">All nutrition actions need to have a family and a community focus since this is where the problems of malnutrition emerge and prevail </string>
+
+    <string name="profile_1_string">\n</string>
+
+    <string name="jodi_string_bmc4">JODI is Beaming Water And Sanitation \nContent .</string>
+    <string name="now_string_bmc4">now</string>
+    <string name="sudhir__string_bmc4">SUDHIR Beamed SOCIAL SAFTY NETS  Content. </string>
+    <string name="s10_mins__ago_string_bmc4">10 mins. ago</string>
+    <string name="cody__string_bmc4">CODY Beamed Classrooms Content .</string>
+    <string name="s15_mins__ago_1_string_bmc4">15 mins. ago</string>
+    <string name="lidia__string_bmc4">LIDIA Beamed Meternal mental Health\nContent .</string>
+    <string name="s20_mins__ago_2_string_bmc4">20 mins. ago</string>
+
+    <!--KPI Names (Sector Parents)-->
+    <string name="min_fed_health">Federal Ministry of Health</string>
+    <string name="min_ed">Ministry of Education</string>
+    <string name="min_agri_natural">Ministry of Agriculture and Natural Resources</string>
+    <string name="min_livestock">Ministry of Livestock and Fisheries</string>
+    <string name="min_water">Ministry of Water, Irrigation and Electricity</string>
+    <string name="min_trade">Ministry of Trade</string>
+    <string name="min_fin_eco">Minister of Finance and Economic Cooperation</string>
+    <string name="min_labor_social">Ministry of Labor and Social Affairs</string>
+    <string name="min_women_children">Ministry of Women and Children Affairs</string>
+    <string name="min_disaster">Disaster Risk Management Coordination Commission</string>
+    <string name="min_comm">Government Communication Affairs</string>
+    <string name="min_youth">Ministry of Youth and Sport</string>
+    <string name="min_pharma">Pharmaceuticals Fund and Supply Agency</string>
+
+</resources>

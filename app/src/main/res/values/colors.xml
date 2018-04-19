@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="rectangle_2_copy_2_color">#F7F7F7</color>
+    <color name="training_1_color">#FFFFFF</color>
+    <color name="sectors_1_color">#FEFEFE</color>
+    <color name="_____color">#FF6B6B</color>
+    <color name="regional_nutrition__coordinating_color">#333645</color>
+    <color name="c1_color">#F0517A</color>
+    <color name="c4_color">#F6A72C</color>
+    <color name="c6_color">#10A501</color>
+    <color name="c10_color">#905099</color>
+    <color name="c5_color">#49AAA3</color>
+
+    <!--NOTIFICATIONS-->
+    <color name="background_screen_color">#F7F7F7</color>
+    <color name="fill_color">#C5E9FD</color>
+    <color name="border_color">#50AADD</color>
+    <color name="c1_min_ago_color">#888484</color>
+    <color name="fill_1_color">#FEDEAB</color>
+    <color name="border_1_color">#F6A72C</color>
+    <color name="fill_2_color">#BBF9F5</color>
+    <color name="border_2_color">#3F8883</color>
+    <color name="notifications_1_color">#FF6B6B</color>
+    <color name="satellite_color">#333645</color>
+
+    <!--TRAINING-->
+
+    <color name="rectangle_5_color">#FFFFFF</color>
+    <color name="proposed_interventions_color">#FF6B6B</color>
+    <color name="training_color">#333645</color>
+    <color name="ellipse_1_color">#FDCF88</color>
+    <color name="ellipse_1_1_color">#EFEFEF</color>
+    <color name="c2_color">#CCCACA</color>
+
+    <!--BEAM CONTENT-->
+    <color name="background_color">#F7F7F7</color>
+    <color name="rounded_rectangle_10_color">#333645</color>
+    <color name="username_1_color">#BCBCBD</color>
+    <color name="not_you___color">#5F5F5F</color>
+    <color name="forgot_password___color">#50AADD</color>
+    <color name="rounded_rectangle_10_2_color">#FF6B6B</color>
+    <color name="login_1_color">#FFFFFF</color>
+
+
+    <!--PROFILE-->
+    <color name="profile__color">#FF6B6B</color>
+    <color name="jodi_color">#333645</color>
+    <color name="edit_color">#939393</color>
+    <color name="circle_color">#50AADD</color>
+    <color name="number_sessions_color">#5E5E60</color>
+    <color name="ellipse_2_1_color">#ABDDFA</color>
+
+    <!--PROFILE KNOWLEDGE-->
+    <color name="background__color">#FFFFFF</color>
+    <color name="knowledge_transfer_color">#50AADD</color>
+    <color name="programme_color">#333645</color>
+    <color name="content_color">#5E5E60</color>
+
+    <color name="phase__1_color">#333645</color>
+    <color name="digit_color">#FFFFFF</color>
+    <color name="implementation_and_evaluation_of_selected_innovated_interventio_color">#5E5E60</color>
+
+    <color name="performance_color">#333645</color>
+    <color name="sessions_color">#333645</color>
+
+    <color name="background_1_color">#FFFFFF</color>
+    <color name="achievements_color">#333645</color>
+
+    <color name="mission_1_color">#333645</color>
+    <color name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesettin_color">#5E5E60</color>
+    <color name="sectors_2_color">#FEFEFE</color>
+
+    <color name="pathways_color">#333645</color>
+    <color name="nutrition__color">#50AADD</color>
+    <color name="the_color">#5E5E60</color>
+    <color name="icon_1_color">#E95454</color>
+
+    <color name="c100_000_beams_today_color">#333645</color>
+    <color name="btn_color">#FF6B6B</color>
+    <color name="beam_1_color">#FFFFFF</color>
+
+    <color name="beam_content_color">#FF6B6B</color>
+    <color name="what___color">#333645</color>
+    <color name="beam_color">#8E8E8E</color>
+    <color name="search_color">#FCFCFC</color>
+    <color name="ellipse_1_color1">#EFEFEF</color>
+    <color name="ellipse_1_5_color">#B4E1FB</color>
+
+    <color name="finish_color">#333645</color>
+    <color name="first_color">#FAFAFA</color>
+    <color name="name___color">#5E5C5C</color>
+    <color name="water__color">#7D7D7D</color>
+
+
+    <color name="community_post_color">#333645</color>
+    <color name="federal_1_color">#B7B7B7</color>
+    <color name="shape_four_color">#C4E7FB</color>
+    <color name="regional_1_color">#50AADD</color>
+    <color name="line_sep_color">#EBEBEB</color>
+    <color name="now_color">#A7A6A6</color>
+
+    <color name="sectors_1_color1">#FF6B6B</color>
+    <color name="national__color">#333645</color>
+
+    <color name="rectangle_2_copy_2_color_tr1">#F6A72C</color>
+    <color name="training_1_color_tr1">#FF6B6B</color>
+    <color name="sectors_1_color_tr1">#FEFEFE</color>
+    <color name="notifications_color">#FFFFFF</color>
+    <color name="ellipse_2_color">#F0F0F2</color>
+    <color name="digit_color_tr1">#50AADD</color>
+    <color name="intervention_color">#333645</color>
+
+    <color name="next_content_1_color">#5E5E60</color>
+    <color name="first_content_color">#333645</color>
+    <!--<color name="training_1_color">#FF6B6B</color>-->
+    <!--<color name="sectors_1_color_tr1">#FEFEFE</color>-->
+
+    <color name="mask_color">#FF6B6B</color>
+    <color name="overlay_color">#252525</color>
+    <!--<color name="sectors_1_color">#FEFEFE</color>-->
+
+    <color name="training_1_color_bm2">#FFFFFF</color>
+    <color name="sectors_1_color_bm2">#FEFEFE</color>
+    <color name="beam_content_color_bm2">#FF6B6B</color>
+    <color name="what___color_bm2">#333645</color>
+    <color name="beam_color_bm2">#8E8E8E</color>
+    <color name="search_color_bm2">#FCFCFC</color>
+    <color name="ellipse_1_color_bmc2">#EFEFEF</color>
+    <color name="ellipse_1_5_color_bm2">#B4E1FB</color>
+
+
+</resources>

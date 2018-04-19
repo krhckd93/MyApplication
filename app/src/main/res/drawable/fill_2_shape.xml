@@ -1,0 +1,1 @@
+<!-- fill_2 from your PSD file. --><shape xmlns:android="http://schemas.android.com/apk/res/android"	android:shape="rectangle" >	<corners android:radius="10dp" />	<solid android:color="@color/fill_2_color" /></shape>
