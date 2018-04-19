@@ -34,12 +34,12 @@ public class SectorPage extends Fragment {
         View  sector_detail = (RelativeLayout) inflater.inflate(R.layout.sector_page, null);
 
         ViewPager viewPager = (ViewPager)sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
-        viewPager.setAdapter(new SectorChildAdapter(((AppCompatActivity)getActivity()).getSupportFragmentManager()));
+        viewPager.setAdapter(new SectorChildAdapter(getChildFragmentManager()));
         viewPager.setCurrentItem(0);
         viewPager.setClipToPadding(false);
         viewPager.setPadding(40, 0, 40, 0);
         viewPager.setPageMargin(20);
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return sector_detail;
     }
 
 
@@ -61,7 +61,7 @@ public class SectorPage extends Fragment {
 
         @Override
         public int getCount() {
-            return 0;
+            return 3;
         }
     }
 

@@ -28,7 +28,7 @@ public class SectorParent extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View sector_detail = inflater.inflate(R.layout.sector_page, null);
+        View sector_detail = inflater.inflate(R.layout.sector_parent, null);
 /*
         getArguments().getString("src");
 
@@ -36,7 +36,8 @@ public class SectorParent extends Fragment {
         TextView hex_text = (TextView)sector_detail.findViewById(R.id.multisectoral__);
         hex_img.setImageResource(getArguments().getInt("image"));
         hex_text.setText(getArguments().getString("text"));*/
-        ViewPager viewPager = (ViewPager)sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
+//        SectorParentViewPager viewPager = (SectorParentViewPager) sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
+        SectorParentViewPager viewPager = (SectorParentViewPager) sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
         viewPager.setAdapter(new SectorParentAdapter(((AppCompatActivity)getActivity()).getSupportFragmentManager()));
         return sector_detail;
     }
@@ -52,18 +53,50 @@ public class SectorParent extends Fragment {
             Bundle bundle = new Bundle();
             switch (position) {
                 case 0 : bundle.putString("parent", getResources().getString(R.string.min_comm));
+                    break;
                 case 1 : bundle.putString("parent", getResources().getString(R.string.min_ed));
+                    break;
                 case 2 : bundle.putString("parent", getResources().getString(R.string.min_labor_social));
+                    break;
                 case 3 : bundle.putString("parent", getResources().getString(R.string.min_water));
+                    break;
                 case 4 : bundle.putString("parent", getResources().getString(R.string.min_agri_natural));
+                    break;
                 case 5 : bundle.putString("parent", getResources().getString(R.string.min_fed_health));
+                    break;
                 case 6 : bundle.putString("parent", getResources().getString(R.string.min_livestock));
+                    break;
                 default: bundle.putString("parent", "null");
+                    break;
 
             }
             SectorPage sectorPage = new SectorPage();
             sectorPage.setArguments(bundle);
             return sectorPage;
+            /*SectorPageChild spc = new SectorPageChild();
+            Bundle bundle = new Bundle();
+            switch (position) {
+                case 0 : bundle.putString("parent", getResources().getString(R.string.min_comm));
+                    break;
+                case 1 : bundle.putString("parent", getResources().getString(R.string.min_ed));
+                    break;
+                case 2 : bundle.putString("parent", getResources().getString(R.string.min_labor_social));
+                    break;
+                case 3 : bundle.putString("parent", getResources().getString(R.string.min_water));
+                    break;
+                case 4 : bundle.putString("parent", getResources().getString(R.string.min_agri_natural));
+                    break;
+                case 5 : bundle.putString("parent", getResources().getString(R.string.min_fed_health));
+                    break;
+                case 6 : bundle.putString("parent", getResources().getString(R.string.min_livestock));
+                    break;
+                default: bundle.putString("parent", "null");
+                    break;
+
+            }
+            bundle.putInt("frame", position);
+            spc.setArguments(new Bundle());
+            return spc;*/
         }
 
         @Override
