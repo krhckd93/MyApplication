@@ -5,9 +5,6 @@ import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-/**
- * Created by darksoul on 4/19/18.
- */
 
 public class SectorParentViewPager extends ViewPager {
 

@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.darksoul.myapplication.R;
@@ -37,8 +38,24 @@ public class SectorParent extends Fragment {
         hex_img.setImageResource(getArguments().getInt("image"));
         hex_text.setText(getArguments().getString("text"));*/
 //        SectorParentViewPager viewPager = (SectorParentViewPager) sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
-        SectorParentViewPager viewPager = (SectorParentViewPager) sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
+        final SectorParentViewPager viewPager = (SectorParentViewPager) sector_detail.findViewById(R.id.view_pager); // Fixme : Resource ID
         viewPager.setAdapter(new SectorParentAdapter(((AppCompatActivity)getActivity()).getSupportFragmentManager()));
+        RelativeLayout sector_parent_left = (RelativeLayout)sector_detail.findViewById(R.id.sector_parent_left);
+        RelativeLayout sector_parent_right = (RelativeLayout)sector_detail.findViewById(R.id.sector_parent_right);
+        sector_parent_left.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                viewPager.setCurrentItem(viewPager.getCurrentItem()-1);
+            }
+        });
+
+        sector_parent_right.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                viewPager.setCurrentItem(viewPager.getCurrentItem()+1);
+            }
+        });
+
         return sector_detail;
     }
 

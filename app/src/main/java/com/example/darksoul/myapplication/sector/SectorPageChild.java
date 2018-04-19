@@ -1,6 +1,9 @@
 package com.example.darksoul.myapplication.sector;
 
 
+import android.graphics.Canvas;
+import android.graphics.Path;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.darksoul.myapplication.HexagonDrawable;
 import com.example.darksoul.myapplication.R;
 
 public class SectorPageChild extends Fragment {

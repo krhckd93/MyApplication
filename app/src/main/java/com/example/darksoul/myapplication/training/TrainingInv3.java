@@ -9,9 +9,6 @@ import android.view.ViewGroup;
 
 import com.example.darksoul.myapplication.R;
 
-/**
- * Created by darksoul on 3/18/18.
- */
 
 public class TrainingInv3 extends Fragment {
     @Nullable

@@ -55,7 +55,7 @@ public class SectorPage extends Fragment {
             Bundle bundle = new Bundle();
             bundle.putString("parent", parent);
             bundle.putInt("frame", position);
-            spc.setArguments(new Bundle());
+            spc.setArguments(bundle);
             return spc;
         }
 
