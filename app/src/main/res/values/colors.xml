@@ -131,5 +131,10 @@
     <color name="ellipse_1_color_bmc2">#EFEFEF</color>
     <color name="ellipse_1_5_color_bm2">#B4E1FB</color>
 
-
+    <color name="sec_red">#EE3147</color>
+    <color name="sec_yellow">#F0A916</color>
+    <color name="sec_green">#147727</color>
+    <color name="sec_black">#231F20</color>
+    <color name="sec_blue">#1D68A1</color>
+    <color name="sec_violet">#A47EA7</color>
 </resources>

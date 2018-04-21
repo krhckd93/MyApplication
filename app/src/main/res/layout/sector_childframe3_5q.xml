@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
+        android:id="@+id/bi_center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_centerInParent="true"/>
+    <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
+        android:id="@+id/mon_top_left"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_toStartOf="@id/bi_center"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="100dp"/>
+    <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
+        android:id="@+id/mon_top_right"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_toEndOf="@id/bi_center"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"/>
+    <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
+        android:id="@+id/mon_bot_left"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_toStartOf="@id/bi_center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"/>
+    <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
+        android:id="@+id/mon_bot_right"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/bi_center"
+        android:layout_marginStart="100dp"/>
+</RelativeLayout>

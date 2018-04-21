@@ -15,7 +15,6 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/ellipse_1_color"
         android:layout_toStartOf="@id/sector_parent_right"
         android:layout_toEndOf="@id/sector_parent_left">
 
