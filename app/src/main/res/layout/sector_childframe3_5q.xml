@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
     <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
-        android:id="@+id/bi_center"
+        android:id="@+id/quat_center"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="#FFFFFF"
@@ -14,7 +14,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="#FFFFFF"
-        android:layout_toStartOf="@id/bi_center"
+        android:layout_toStartOf="@id/quat_center"
         android:layout_alignParentTop="true"
         android:layout_marginEnd="100dp"/>
     <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
@@ -22,7 +22,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="#FFFFFF"
-        android:layout_toEndOf="@id/bi_center"
+        android:layout_toEndOf="@id/quat_center"
         android:layout_alignParentTop="true"
         android:layout_marginStart="100dp"/>
     <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
@@ -30,7 +30,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="#FFFFFF"
-        android:layout_toStartOf="@id/bi_center"
+        android:layout_toStartOf="@id/quat_center"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="100dp"/>
     <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
@@ -39,6 +39,6 @@
         android:layout_height="150dp"
         android:background="#FFFFFF"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@id/bi_center"
+        android:layout_toEndOf="@id/quat_center"
         android:layout_marginStart="100dp"/>
 </RelativeLayout>

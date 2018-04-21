@@ -1,11 +1,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
     <RelativeLayout
         android:id="@+id/sector_parent_left"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true">
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="2dp">
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -16,7 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toStartOf="@id/sector_parent_right"
-        android:layout_toEndOf="@id/sector_parent_left">
+        android:layout_toEndOf="@id/sector_parent_left"
+        android:background="#FFFFFF">
 
     </com.example.darksoul.myapplication.sector.SectorParentViewPager>
     <RelativeLayout
@@ -24,7 +27,8 @@
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true">
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp">
 
         <ImageView
             android:layout_width="50dp"

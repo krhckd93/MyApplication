@@ -11,24 +11,24 @@
 
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
             android:id="@+id/bi_top_center"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="#FFFFFF"
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"/>
 
         <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
             android:id="@+id/quat_bott_center"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="#FFFFFF"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"/>
 
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
             android:id="@+id/bi_bott_right"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="#FFFFFF"
             android:layout_toEndOf="@id/bi_top_center"
             android:layout_marginBottom="120dp"
@@ -37,17 +37,17 @@
 
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
             android:id="@+id/bi_top_left"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="#FFFFFF"
             android:layout_toStartOf="@id/bi_top_center"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="120dp"/>
+            android:layout_marginTop="100dp"/>
 
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
             android:id="@+id/bi_bott_left"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="#FFFFFF"
             android:layout_toStartOf="@id/quat_bott_center"
             android:layout_marginBottom="120dp"
@@ -55,8 +55,8 @@
 
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
             android:id="@+id/bi_top_right"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="#FFFFFF"
             android:layout_toEndOf="@id/quat_bott_center"
             android:layout_alignParentTop="true"

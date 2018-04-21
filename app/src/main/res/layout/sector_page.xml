@@ -1,10 +1,60 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="wrap_content" >
-
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF">
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:elevation="5dp"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/header_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Woreda"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:maxWidth="300dp"
+            android:textColor="@color/sec_black"/>
+    </RelativeLayout>
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_above="@id/footer"
+        android:layout_alignParentTop="true">
     </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <TextSwitcher
+            android:id="@+id/sector_page_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:layout_gravity="center_horizontal">
+
+        </TextSwitcher>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/circle_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            app:ci_drawable="@drawable/circle1"
+            app:ci_drawable_unselected="@drawable/circle1_off"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+        </me.relex.circleindicator.CircleIndicator>
+    </LinearLayout>
 </RelativeLayout>
