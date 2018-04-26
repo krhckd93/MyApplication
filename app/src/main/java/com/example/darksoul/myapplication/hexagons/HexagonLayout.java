@@ -16,8 +16,8 @@ import com.example.darksoul.myapplication.R;
 
 public class HexagonLayout extends RelativeLayout {
 
-    public static int X = 100;
-    public static int Y = 66;
+    public static int X = 55;
+    public static int Y = 36;
     public static int Y2 = 2 * Y;
     public int mColor = Color.MAGENTA;
 

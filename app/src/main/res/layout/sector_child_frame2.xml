@@ -35,7 +35,6 @@
             android:layout_height="150dp"
             android:background="#FFFFFF"
             android:layout_marginTop="115dp"
-            android:layout_marginEnd="-25dp"
             android:layout_toStartOf="@+id/hex_ull" />
 
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
@@ -45,7 +44,6 @@
             android:layout_centerVertical="true"
             android:layout_marginTop="20dp"
             android:layout_toStartOf="@id/top_left"
-            android:layout_marginEnd="-25dp"
             android:background="#FFFFFF"/>
 
         <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
@@ -54,7 +52,6 @@
             android:layout_height="150dp"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@id/top_right"
-            android:layout_marginStart="-25dp"
             android:background="#FFFFFF"/>
         <com.example.darksoul.myapplication.hexagons.BiannualHexagonLayout
             android:id="@+id/top_right"
@@ -63,7 +60,6 @@
             android:background="#FFFFFF"
             android:layout_toEndOf="@+id/hex_ull"
             android:layout_marginTop="115dp"
-            android:layout_marginStart="-25dp"
             />
 
         <LinearLayout
@@ -95,8 +91,7 @@
             android:background="#FFFFFF"
             android:layout_toStartOf="@id/hex_bll"
             android:layout_marginBottom="115dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="-25dp"/>
+            android:layout_alignParentBottom="true"/>
 
         <com.example.darksoul.myapplication.hexagons.QuaterlyHexagonLayout
             android:id="@+id/bott_right"
@@ -105,7 +100,6 @@
             android:layout_marginBottom="115dp"
             android:layout_alignParentBottom="true"
             android:layout_toEndOf="@+id/hex_bll"
-            android:layout_marginStart="-25dp"
             android:background="#FFFFFF"/>
 
     </RelativeLayout>

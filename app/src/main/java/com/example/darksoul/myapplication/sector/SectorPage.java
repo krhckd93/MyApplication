@@ -44,7 +44,7 @@ public class SectorPage extends Fragment {
         viewPager.setAdapter(new SectorChildAdapter(getChildFragmentManager()));
         viewPager.setCurrentItem(0);
         viewPager.setClipToPadding(false);
-        viewPager.setPadding(270, 0, 270, 0);
+        viewPager.setPadding(100, 0, 100, 0);
         CircleIndicator circleIndicator = (CircleIndicator)sector_detail.findViewById(R.id.circle_indicator);
         circleIndicator.setViewPager(viewPager);
 
